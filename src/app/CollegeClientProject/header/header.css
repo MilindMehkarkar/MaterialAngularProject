@@ -6,7 +6,7 @@
 
 .underline {
     border-bottom: 1px solid black;
-    width: 3in;
+    width: 1.8in;
 }
 
 
@@ -102,6 +102,7 @@
   .mat-toolbar[_ngcontent-c1] {
     color: black;
 }
-  .mat-toolbar{
-      color: black;
-  }
+.mat-toolbar {
+    /* background: #f5f5f5; */
+    color: rgba(0,0,0,.87);
+}
