@@ -98,13 +98,28 @@
   .example-spacer {
     flex: 1 1 auto;
     text-align: center;
+    font: 500 20px/32px Roboto,"Helvetica Neue",sans-serif
   }
 
 
 .mat-toolbar {
     background: none;
     color: rgba(0,0,0,.87);
+   font:  500 15.5px/32px Roboto,"Helvetica Neue",sans-serif
 }
 .mat-toolbar1{
     padding: 0 0;
+    height: 42px;
+}
+mat-toolbar-row.mat-second-toolbar{
+    content: '';
+    display: inherit;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 5px goldenrod;
+
+}
+mat-toolbar-row.mat-remove-space{
+    display: table;
+
 }
