@@ -5,7 +5,7 @@ import {MatButtonModule, MatCheckboxModule, MatSelectModule, MatInputModule, Mat
 } from '@angular/material';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatListModule } from '@angular/material'
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 import { AppComponent } from './app.component';
@@ -82,6 +82,7 @@ import { MandatorydisclosureComponent } from './CollegeClientProject/MandatoryDi
     CdkTableModule,
     MatTableModule,
     MatDividerModule,
+    MatToolbarModule,
     RouterModule.forRoot(CollegeRoutes)
   ],
   providers: [],
